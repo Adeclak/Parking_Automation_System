@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 client = MongoClient('mongodb://localhost:27017')
 print(client)
-db = client['Mrigyank']
+db = client['Adesh']
 collection = db['Parking']
 
 exit_num = input("Vehicle Number = ")
