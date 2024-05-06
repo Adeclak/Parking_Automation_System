@@ -15,10 +15,9 @@ delta = time2 - time1
 
 
 print("Time difference in seconds is", delta.total_seconds(), "seconds")
-print(delta.total_seconds()/3600)'''
+print(delta.total_seconds()/3600)
 
-
-'''import datetime
+import datetime
 
 e = datetime.datetime.now()
 
